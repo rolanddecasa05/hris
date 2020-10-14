@@ -3,23 +3,20 @@
         <div class="flex flex-row">
             <div class="flex flex-row w-full">
 
-                <div class="flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
+                <div class="flex bg-purple-300 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
                     
                 </div>
-                <div class="flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
+                <div class="flex bg-red-vivid-200 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
                     
                 </div>
-                <div class="flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
+                <div class="flex bg-teal-vivid-200 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
                     
                 </div>
                 <div class="flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
                     
                 </div>
             </div>
-            <!-- <h1>Hello Avocado</h1>
-            <ul v-for="user in users" :key="user.id">
-                <li class="capitalize">{{ user.name }}</li>
-            </ul> -->
+          
         </div> 
     </app-layout>
     
