@@ -3494,9 +3494,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
@@ -25943,7 +25940,7 @@ var render = function() {
         "nav",
         {
           staticClass:
-            "bg-indigo-100 border-b border-indigo-200 shadow-lg sticky"
+            "bg-purple-800 border-b border-purple-800 shadow-lg sticky"
         },
         [
           _c("div", { staticClass: "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" }, [
@@ -25982,9 +25979,9 @@ var render = function() {
                         }
                       },
                       [
-                        _vm._v(
-                          "\n                               Human Resource Admin Panel\n                           "
-                        )
+                        _c("p", { staticClass: "text-white" }, [
+                          _vm._v("Human Resource Admin Panel")
+                        ])
                       ]
                     )
                   ],
@@ -26036,7 +26033,10 @@ var render = function() {
                                         _c("div", [
                                           _c(
                                             "p",
-                                            { staticClass: "capitalize" },
+                                            {
+                                              staticClass:
+                                                "capitalize text-white"
+                                            },
                                             [
                                               _vm._v(
                                                 _vm._s(_vm.$page.user.name)
@@ -26575,8 +26575,6 @@ var render = function() {
                 _vm._v("\n                   Users\n               ")
               ]
             ),
-            _vm._v(" "),
-            _c("div", { staticClass: "border border-purple-800 w-full" }),
             _vm._v(" "),
             _c(
               "div",
@@ -27361,17 +27359,17 @@ var render = function() {
       _c("div", { staticClass: "flex flex-row w-full" }, [
         _c("div", {
           staticClass:
-            "flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
+            "flex bg-purple-300 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
         }),
         _vm._v(" "),
         _c("div", {
           staticClass:
-            "flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
+            "flex bg-red-vivid-200 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
         }),
         _vm._v(" "),
         _c("div", {
           staticClass:
-            "flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
+            "flex bg-teal-vivid-200 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
         }),
         _vm._v(" "),
         _c("div", {
@@ -44970,8 +44968,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/rolanddecasa/MyApps/laravel/hris/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/rolanddecasa/MyApps/laravel/hris/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\laragon\www\hris\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\laragon\www\hris\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
