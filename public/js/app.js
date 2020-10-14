@@ -26438,7 +26438,7 @@ var render = function() {
           "div",
           {
             staticClass:
-              "flex flex-col bg-purple-700 w-1/4 items-center text-white"
+              "flex flex-col bg-purple-700 w-1/6 items-center text-white"
           },
           [
             _c(
@@ -27355,7 +27355,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("app-layout", [
-    _c("div", { staticClass: "flex flex-row" }, [
+    _c("div", { staticClass: "flex p-5" }, [
       _c("div", { staticClass: "flex flex-row w-full" }, [
         _c("div", {
           staticClass:
@@ -27377,7 +27377,9 @@ var render = function() {
             "flex bg-indigo-400 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4"
         })
       ])
-    ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "border border-gray-200 shadow-lg w-full" })
   ])
 }
 var staticRenderFns = []

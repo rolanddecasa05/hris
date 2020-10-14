@@ -1,6 +1,6 @@
 <template>
     <app-layout>
-        <div class="flex flex-row">
+        <div class="flex p-5">
             <div class="flex flex-row w-full">
 
                 <div class="flex bg-purple-300 shadow-lg border-blue-500  justify-content item-center px-10 py-10 m-4 w-1/4">
@@ -16,8 +16,8 @@
                     
                 </div>
             </div>
-          
         </div> 
+        <div class="border border-gray-200 shadow-lg w-full"></div>
     </app-layout>
     
 </template>
