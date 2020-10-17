@@ -6,13 +6,12 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\User;
 
-class AdminController extends Controller
+class UserController extends Controller
 {
     public function index()
     {
-    	return Inertia::render('Admin/AdminDashboard', [
-    		//'users' => User::limit(10)->get()
+    	return Inertia::render('User/UserList', [
+    		'users' => User::limit(10)->get()
     	]);
     }
-
 }
