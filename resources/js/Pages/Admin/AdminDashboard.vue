@@ -27,7 +27,7 @@
 
     export default {
         props: {
-            users: []
+            //users: []
         },
         components: {
             AppLayout

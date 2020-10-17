@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,6 +25,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
 	Route::prefix('admin')->group(function () {
 		Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
+		Route::get('/users', [UserController::class, 'index'])->name('user.index');
 	});
     
 });
