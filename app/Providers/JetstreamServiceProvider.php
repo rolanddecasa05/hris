@@ -59,5 +59,23 @@ class JetstreamServiceProvider extends ServiceProvider
             'create',
             'update',
         ])->description(__('Editor users have the ability to read, create, and update.'));
+
+        // Custom Roles and Permissions for H-R-I-S.
+        Jetstream::role('managers', __('Manager'), [
+            'read',
+            'update',
+            'create',
+            'delete'
+        ])->description(__('Manager can manage teams and its members.'));
+
+        Jetstream::role('team_leader', __('Team Leader'), [
+            'read',
+            'update',
+            'create'
+        ])->description(__('Team Leader can manage team members.'));
+
+        Jetstream::role('team_member', __('Team Member'), [
+            'read',
+        ])->description(__('Team Member has a read permission.'));
     }
 }
