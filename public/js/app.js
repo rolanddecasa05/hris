@@ -26029,8 +26029,10 @@ var render = function() {
                     _c(
                       "div",
                       {
-                        staticClass:
-                          "text-left w-full p-3 font-bold hover:bg-blue-grey-900 cursor-pointer"
+                        class:
+                          _vm.$page.currentRouteName == "admin.dashboard"
+                            ? "shadow-lg text-left w-full p-3 font-bold bg-blue-grey-900 cursor-pointer"
+                            : "text-left w-full p-3 font-bold hover:bg-blue-grey-900 cursor-pointer"
                       },
                       [
                         _c(
@@ -26197,8 +26199,10 @@ var render = function() {
                     _c(
                       "div",
                       {
-                        staticClass:
-                          "text-left w-full p-3 font-bold hover:bg-blue-grey-900 cursor-pointer"
+                        class:
+                          _vm.$page.currentRouteName == "user.index"
+                            ? "shadow-lg text-left w-full p-3 font-bold bg-blue-grey-900 cursor-pointer"
+                            : "text-left w-full p-3 font-bold hover:bg-blue-grey-900 cursor-pointer"
                       },
                       [
                         _c(
